@@ -49,7 +49,7 @@ Time spent: **5** hours spent in total
     - ```http://wpdistillery.vm/wp-admin/customize.php?theme=<svg onload=alert(document.cookie)>```
     - Go to the post
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/class-wp-theme.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.4.1/src/wp-includes/class-wp-theme.php)
     
 ## Assets
 
