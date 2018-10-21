@@ -38,7 +38,7 @@ Time spent: **5** hours spent in total
     - [Link 3](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/kses.php)
     - [Link 4](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/shortcodes.php)
     
-2. Authenticated Cross-Site Scripting (XSS)
+3. Authenticated Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting (CVE 2016-1564)
     - Tested in version: 4.2
