@@ -6,7 +6,7 @@ Time spent: **5** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
+1. Authenticated Shortcode Tags Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting (CVE 2015-5714)
     - Tested in version: 4.2
@@ -20,7 +20,7 @@ Time spent: **5** hours spent in total
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/media.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/shortcodes.php)
     
-2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
+2. Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting (CVE 2015-5622; 2015-5623)
     - Tested in version: 4.2
@@ -38,7 +38,7 @@ Time spent: **5** hours spent in total
     - [Link 3](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/kses.php)
     - [Link 4](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/shortcodes.php)
     
-2. (Required) Authenticated Cross-Site Scripting (XSS)
+2. Authenticated Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting (CVE 2016-1564)
     - Tested in version: 4.2
