@@ -19,7 +19,8 @@ Time spent: **5** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/media.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.3.1/src/wp-includes/shortcodes.php)
-1. (Required) Authenticated Stored Cross-Site Scripting (XSS)
+    
+2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
@@ -36,19 +37,25 @@ Time spent: **5** hours spent in total
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/formatting.php)
     - [Link 3](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/kses.php)
     - [Link 4](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/shortcodes.php)
-1. (Required) Authenticated Cross-Site Scripting (XSS)
+    
+2. (Required) Authenticated Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.4.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](xss3.gif)
   - [ ] Steps to recreate: 
+    - Create a new post with the following payload in the body
+    - ```http://wpdistillery.vm/wp-admin/customize.php?theme=<svg onload=alert(document.cookie)>```
+    - Go to the post
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/class-wp-theme.php)
     
 ## Assets
 
-List any additional assets, such as scripts or files
+  - xss1.gif
+  - xss2.gif
+  - xss3.gif
 
 ## Resources
 
@@ -56,10 +63,6 @@ List any additional assets, such as scripts or files
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while doing the work
 
 ## License
 
