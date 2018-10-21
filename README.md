@@ -8,7 +8,7 @@ Time spent: **5** hours spent in total
 
 1. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types: Cross-Site Scripting
+    - Vulnerability types: Cross-Site Scripting (CVE 2015-5714)
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
   - [ ] GIF Walkthrough: ![](xss1.gif)
@@ -22,7 +22,7 @@ Time spent: **5** hours spent in total
     
 2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types: Cross-Site Scripting
+    - Vulnerability types: Cross-Site Scripting (CVE 2015-5622; 2015-5623)
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: ![](xss2.gif)
@@ -40,7 +40,7 @@ Time spent: **5** hours spent in total
     
 2. (Required) Authenticated Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types: Cross-Site Scripting
+    - Vulnerability types: Cross-Site Scripting (CVE 2016-1564)
     - Tested in version: 4.2
     - Fixed in version: 4.4.1
   - [ ] GIF Walkthrough: ![](xss3.gif)
